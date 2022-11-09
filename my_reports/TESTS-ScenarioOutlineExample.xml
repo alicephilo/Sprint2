@@ -1,0 +1,79 @@
+<testsuite name="ScenarioOutlineExample.login Rediffmail" tests="2" errors="0" failures="0" skipped="0" time="135.784578" timestamp="2022-11-09T16:19:23.948454" hostname="DESKTOP-9JS35JG"><testcase classname="ScenarioOutlineExample.login Rediffmail" name="login data -- @1.1 " status="passed" time="71.944717"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: login data -- @1.1 
+    Given we navigate to Rediffmail account ... passed in 4.260s
+    When we validate the username text ... passed in 0.099s
+    And we type in the "alicephilopw" edit box ... passed in 0.195s
+    And we validate the password text ... passed in 0.044s
+    And we type in the "Alice@123" field ... passed in 0.180s
+    And we click on the sign in button ... passed in 10.018s
+    Then we validate inbox page opens ... passed in 0.108s
+    Given we click in write mail link ... passed in 5.166s
+    When we fill the "alicephilo7@gmail.com" field ... passed in 11.406s
+    And we type the "test" area ... passed in 6.097s
+    And type in "testing done" area ... passed in 5.359s
+    And we click on send button ... passed in 7.193s
+    And we click on logout link ... passed in 14.714s
+    Then we validate that we have logded out of rediffmail account ... passed in 7.106s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]>
+</system-out></testcase><testcase classname="ScenarioOutlineExample.login Rediffmail" name="login data -- @1.2 " status="passed" time="63.83986"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: login data -- @1.2 
+    Given we navigate to Rediffmail account ... passed in 4.939s
+    When we validate the username text ... passed in 0.065s
+    And we type in the "alicephilopw" edit box ... passed in 0.149s
+    And we validate the password text ... passed in 0.041s
+    And we type in the "Alice@123" field ... passed in 0.168s
+    And we click on the sign in button ... passed in 8.071s
+    Then we validate inbox page opens ... passed in 0.061s
+    Given we click in write mail link ... passed in 5.163s
+    When we fill the "selenium.testmay2012@rediffmail.com" field ... passed in 11.342s
+    And we type the "development" area ... passed in 5.322s
+    And type in "development done" area ... passed in 5.341s
+    And we click on send button ... passed in 7.198s
+    And we click on logout link ... passed in 8.884s
+    Then we validate that we have logded out of rediffmail account ... passed in 7.095s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]>
+</system-out></testcase></testsuite>
