@@ -37,9 +37,9 @@ class SendmailPage(BaseSettingsPage):
     def clickLogout(self):
         self.DynamicImplicitWait(40)
         self.ClickLinks("logout_XPATH")
-        time.sleep(7)
+        time.sleep(10)
 
     def validlogout(self, expectedTextVal):
         self.DynamicImplicitWait(40)
         self.AssertText("logoutText_XPATH", expectedTextVal)
-        time.sleep(7)
+        time.sleep(10)
